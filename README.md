@@ -6,9 +6,10 @@ Execute Web Workers without external files
 Usage is as really simple:
 
 ```javascript
-webwork(callback);
+callableWebworker = webwork(callback);
 ```
-callback is a node style callback ie `function(err, result) {}`
+`callback` takes a single data argument and should return the result  
+`callableWebworker` is a function that takes the data to send and a node style callback ie `function(err, result) {}`
 
 ## [JSBin Demo](http://jsfiddle.net/uqcFM/60/)
 
