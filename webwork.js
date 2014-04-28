@@ -3,7 +3,7 @@ function webwork(callback) {
     // URL.createObjectURL
     window.URL = window.URL || window.webkitURL;
     
-    var response = "onmessage=function(e){postMessage(" + callback + "(e.data));}";
+    var response = "onmessage=function(event){postMessage(" + callback + "(event.data));}";
     
     var blob;
     try {
