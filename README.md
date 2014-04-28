@@ -36,4 +36,4 @@ badWorker("Test456", function(err, result) {
 alert("Since webworkers are async this should happen first.\nThe callbacks may fire in any order");
 ```
 
-The astute may realize that they can access the e variable inside the callback
+The astute may realize that they can access the `e` variable inside the callback
