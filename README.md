@@ -38,4 +38,5 @@ badWorker("Test456", function(err, result) {
 alert("Since webworkers are async this should happen first.\nThe callbacks may fire in any order");
 ```
 
-The astute may realize that they can access the `event` variable inside the callback
+The astute may realize that they can access the `event` variable inside the callback.  
+Also since the callback is stringified and injected into the webworker, you don't have access to any vars in scope
