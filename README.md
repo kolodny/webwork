@@ -9,7 +9,8 @@ Usage is as really simple:
 callableWebworker = webwork(callback);
 ```
 `callback` takes a single data argument and should return the result  
-`callableWebworker` is a function that takes the data to send and a node style callback ie `function(err, result) {}`
+`callableWebworker` is a function that takes the data to send and  
+a node style callback ie `function(err, result) {}`
 
 ## [JSBin Demo](http://jsfiddle.net/uqcFM/60/)
 
