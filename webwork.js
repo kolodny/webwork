@@ -18,7 +18,7 @@ function webwork(callback) {
     return function() {
         var worker = new Worker(URL.createObjectURL(blob));
         var args = Array.prototype.slice.call(arguments);
-        var callback
+        var callback;
         var ran;
         if (typeof args[args.length - 1] === 'function') {
             callback = args.pop();
