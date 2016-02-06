@@ -42,9 +42,9 @@ The astute may realize that they can access the `event` variable inside the call
 Also since the callback is stringified and injected into the webworker, you don't have access to any vars in scope
 
 ## What to Use webwork.js for and When to Use It
-webwork.js is best used for any project that requires web workers, but needs to minimize or eleminate external web worker files. It also allows for simpler, cleaner inline web worker code. webwork.js should be used when a project: 
-- needs web workers, but wants to keep web worker code inline for minification and distribution purposes
-- needs web workers, but wants to keep web worker code inline to avoid excessive external web worker files and page requests
+webwork.js is best used for any project that requires web workers, but needs to minimize or eliminate external web worker files. It also allows for simpler, cleaner inline web worker code. webwork.js should be used when a project: 
+- needs web workers, but wants to keep code inline for minification and distribution purposes
+- needs web workers, but wants to keep code inline to avoid excessive external web worker files and page requests
 - needs inline web workers, and wants to avoid repetitive and tedious [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) code
 
 
