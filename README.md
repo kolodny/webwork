@@ -1,9 +1,13 @@
 webwork.js
 =======
 
-Execute Web Workers without external files
+Execute Web Workers without external files.
 
-Usage is as really simple:
+Typically, Javascript code executes in a single thread, with each task lined up to execute after the previous one has completed.
+
+By calling in external files, Web Workers allow browsers to process large tasks in the background, creating new threads to handle more tasks simultaneously. Webwork.js lets you create and execute Web Workers inline without the need for importing external files.
+
+Usage is really simple:
 
 ```javascript
 callableWebworker = webwork(callback);
