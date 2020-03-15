@@ -10,6 +10,7 @@ By calling in external files, Web Workers allow browsers to process large tasks 
 Usage is really simple:
 
 ```javascript
+import webwork from '@kolodny/webwork';
 callableWebworker = webwork(callback);
 ```
 `callback` takes a single data argument and should return the result  

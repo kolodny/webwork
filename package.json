@@ -1,0 +1,23 @@
+{
+  "name": "@kolodny/webwork",
+  "version": "1.0.0",
+  "description": "Execute Web Workers without external files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolodny/webwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolodny/webwork/issues"
+  },
+  "homepage": "https://github.com/kolodny/webwork#readme",
+  "dependencies": {
+    "qserve": "1.0.0"
+  }
+}
